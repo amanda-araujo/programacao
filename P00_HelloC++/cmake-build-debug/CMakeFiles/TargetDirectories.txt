@@ -1,0 +1,8 @@
+/home/up202411286/CLionProjects/ola/cmake-build-debug/CMakeFiles/ola.dir
+/home/up202411286/CLionProjects/ola/cmake-build-debug/CMakeFiles/hello.dir
+/home/up202411286/CLionProjects/ola/cmake-build-debug/CMakeFiles/basic-calculation.dir
+/home/up202411286/CLionProjects/ola/cmake-build-debug/CMakeFiles/even-odd.dir
+/home/up202411286/CLionProjects/ola/cmake-build-debug/CMakeFiles/range.dir
+/home/up202411286/CLionProjects/ola/cmake-build-debug/CMakeFiles/divisors.dir
+/home/up202411286/CLionProjects/ola/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/up202411286/CLionProjects/ola/cmake-build-debug/CMakeFiles/rebuild_cache.dir
