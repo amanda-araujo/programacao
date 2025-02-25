@@ -1,8 +1,8 @@
-C:/Users/up202411286/CLionProjects/Py01_SyntaxPrimitiveTypesEtc/cmake-build-debug/CMakeFiles/Py01_SyntaxPrimitiveTypesEtc.dir
-C:/Users/up202411286/CLionProjects/Py01_SyntaxPrimitiveTypesEtc/cmake-build-debug/CMakeFiles/hello.dir
-C:/Users/up202411286/CLionProjects/Py01_SyntaxPrimitiveTypesEtc/cmake-build-debug/CMakeFiles/einstein.dir
-C:/Users/up202411286/CLionProjects/Py01_SyntaxPrimitiveTypesEtc/cmake-build-debug/CMakeFiles/calculator.dir
-C:/Users/up202411286/CLionProjects/Py01_SyntaxPrimitiveTypesEtc/cmake-build-debug/CMakeFiles/md.dir
-C:/Users/up202411286/CLionProjects/Py01_SyntaxPrimitiveTypesEtc/cmake-build-debug/CMakeFiles/reverse.dir
-C:/Users/up202411286/CLionProjects/Py01_SyntaxPrimitiveTypesEtc/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/up202411286/CLionProjects/Py01_SyntaxPrimitiveTypesEtc/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/Amanda/CLionProjects/programacao/Py01_SyntaxPrimitiveTypesEtc/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/Amanda/CLionProjects/programacao/Py01_SyntaxPrimitiveTypesEtc/cmake-build-debug/CMakeFiles/md.dir
+/mnt/c/Users/Amanda/CLionProjects/programacao/Py01_SyntaxPrimitiveTypesEtc/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/c/Users/Amanda/CLionProjects/programacao/Py01_SyntaxPrimitiveTypesEtc/cmake-build-debug/CMakeFiles/einstein.dir
+/mnt/c/Users/Amanda/CLionProjects/programacao/Py01_SyntaxPrimitiveTypesEtc/cmake-build-debug/CMakeFiles/hello.dir
+/mnt/c/Users/Amanda/CLionProjects/programacao/Py01_SyntaxPrimitiveTypesEtc/cmake-build-debug/CMakeFiles/reverse.dir
+/mnt/c/Users/Amanda/CLionProjects/programacao/Py01_SyntaxPrimitiveTypesEtc/cmake-build-debug/CMakeFiles/calculator.dir
+/mnt/c/Users/Amanda/CLionProjects/programacao/Py01_SyntaxPrimitiveTypesEtc/cmake-build-debug/CMakeFiles/Py01_SyntaxPrimitiveTypesEtc.dir
