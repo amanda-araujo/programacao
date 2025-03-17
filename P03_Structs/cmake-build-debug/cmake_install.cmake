@@ -1,4 +1,4 @@
-# Install script for directory: /home/up202411286/Downloads/TP03 Structs
+# Install script for directory: /home/up202411286/Downloads/P03_Structs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
