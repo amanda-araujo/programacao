@@ -64,7 +64,7 @@ int main () {
     std::cout << n << bla[0] << bla[1] << bla[2] << std::endl;
 
     week w;
-    std::cout << sizeof(w) << std::endl;
+    std::cout << sizeof(w) << std::endl; //
 
     char st[] = "2LEIC 022";
     int l = 0;
