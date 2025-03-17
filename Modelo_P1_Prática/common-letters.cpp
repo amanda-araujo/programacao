@@ -51,3 +51,81 @@ int main () {
     cout << n << " \"" << out << "\"\n";
     return 0;
 }
+
+
+////// Little help from the entity
+/*
+// Function to convert uppercase letters to lowercase manually
+char to_lower(char c) {
+    if (c >= 'A' && c <= 'Z') {
+        return c + ('a' - 'A'); // Convert uppercase to lowercase
+    }
+    return c; // Already lowercase or not a letter
+}
+
+// Function to check if a character is a letter (A-Z or a-z)
+bool is_letter(char c) {
+    return (c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z');
+}
+
+// Function to find common letters (case-insensitive, unique, sorted)
+int common_letters(const char a[], const char b[], char out[]) {
+    int n = 0; // Number of unique common letters found
+
+    // Iterate through `a`
+    for (int i = 0; a[i] != '\0'; i++) {
+        char ca = to_lower(a[i]);
+
+        // Only process if it is a letter
+        if (!is_letter(ca)) continue;
+
+        // Check if this letter exists in `b`
+        bool found_in_b = false;
+        for (int j = 0; b[j] != '\0'; j++) {
+            if (to_lower(b[j]) == ca) {
+                found_in_b = true;
+                break;
+            }
+        }
+
+        // If letter is found in `b`, ensure it's not already in `out`
+        if (found_in_b) {
+            bool already_in_out = false;
+            for (int k = 0; k < n; k++) {
+                if (out[k] == ca) {
+                    already_in_out = true;
+                    break;
+                }
+            }
+
+            // If not already in `out`, add it
+            if (!already_in_out) {
+                out[n++] = ca;
+            }
+        }
+    }
+
+    // Null-terminate `out`
+    out[n] = '\0';
+
+    // Sort `out` in alphabetical order (Bubble Sort)
+    for (int i = 0; i < n - 1; i++) {
+        for (int j = 0; j < n - 1 - i; j++) {
+            if (out[j] > out[j + 1]) {
+                char temp = out[j];
+                out[j] = out[j + 1];
+                out[j + 1] = temp;
+            }
+        }
+    }
+
+    return n;
+}
+
+int main() {
+    char out[26 + 1]; // Maximum 26 letters + null terminator
+    int n = common_letters("+LEIC", "c++", out);
+    cout << n << " \"" << out << "\"\n"; // Expected output: 1 "c"
+    return 0;
+}
+*/
