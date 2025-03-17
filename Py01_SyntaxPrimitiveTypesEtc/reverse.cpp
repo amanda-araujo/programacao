@@ -4,7 +4,7 @@
 //
 
 /* Write a C++ program that, given an integer by user input, computes its reverse (the number with the digits by
- * the reverse order) and prints it. You cannot use strings.*/
+ * the reverse order) and prints it. You cannot use s-t-r-i-n-g-s.*/
 
 #include <iostream>
 
@@ -24,7 +24,7 @@ int main() {
     int n;
     std::cin >> n;
 
-    // Without using strings
+    // Without using s-t-r-i-n-g-s
     // Aritmetics! Decimal number representation
     int rev = reverse(n);
     std::cout << rev << std::endl;
