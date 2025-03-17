@@ -1,0 +1,6 @@
+/home/up202411286/CLionProjects/P02/cmake-build-debug/CMakeFiles/advance.dir
+/home/up202411286/CLionProjects/P02/cmake-build-debug/CMakeFiles/adigits.dir
+/home/up202411286/CLionProjects/P02/cmake-build-debug/CMakeFiles/equation.dir
+/home/up202411286/CLionProjects/P02/cmake-build-debug/CMakeFiles/bc.dir
+/home/up202411286/CLionProjects/P02/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/up202411286/CLionProjects/P02/cmake-build-debug/CMakeFiles/rebuild_cache.dir

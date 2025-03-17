@@ -1,0 +1,6 @@
+/home/up202411286/Downloads/TP03 Structs/cmake-build-debug/CMakeFiles/time_of_day.dir
+/home/up202411286/Downloads/TP03 Structs/cmake-build-debug/CMakeFiles/interval.dir
+/home/up202411286/Downloads/TP03 Structs/cmake-build-debug/CMakeFiles/interval2.dir
+/home/up202411286/Downloads/TP03 Structs/cmake-build-debug/CMakeFiles/fraction.dir
+/home/up202411286/Downloads/TP03 Structs/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/up202411286/Downloads/TP03 Structs/cmake-build-debug/CMakeFiles/rebuild_cache.dir

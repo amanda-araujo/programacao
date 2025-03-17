@@ -1,0 +1,7 @@
+/home/up202411286/CLionProjects/P04-aggregateDataTypes-Arrays/cmake-build-debug/CMakeFiles/max.dir
+/home/up202411286/CLionProjects/P04-aggregateDataTypes-Arrays/cmake-build-debug/CMakeFiles/teste.dir
+/home/up202411286/CLionProjects/P04-aggregateDataTypes-Arrays/cmake-build-debug/CMakeFiles/merge-arrays.dir
+/home/up202411286/CLionProjects/P04-aggregateDataTypes-Arrays/cmake-build-debug/CMakeFiles/merge-dynamic-arrays.dir
+/home/up202411286/CLionProjects/P04-aggregateDataTypes-Arrays/cmake-build-debug/CMakeFiles/hstr-to-integer.dir
+/home/up202411286/CLionProjects/P04-aggregateDataTypes-Arrays/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/up202411286/CLionProjects/P04-aggregateDataTypes-Arrays/cmake-build-debug/CMakeFiles/rebuild_cache.dir
