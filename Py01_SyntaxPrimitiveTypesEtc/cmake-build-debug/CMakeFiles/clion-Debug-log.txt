@@ -1,4 +1,4 @@
 /usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "Unix Makefiles" -S /mnt/c/Users/Amanda/CLionProjects/programacao/Py01_SyntaxPrimitiveTypesEtc -B /mnt/c/Users/Amanda/CLionProjects/programacao/Py01_SyntaxPrimitiveTypesEtc/cmake-build-debug
--- Configuring done (0.2s)
--- Generating done (1.1s)
+-- Configuring done (0.1s)
+-- Generating done (1.5s)
 -- Build files have been written to: /mnt/c/Users/Amanda/CLionProjects/programacao/Py01_SyntaxPrimitiveTypesEtc/cmake-build-debug

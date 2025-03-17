@@ -9,5 +9,10 @@
 /mnt/c/Users/Amanda/CLionProjects/programacao/Py01_SyntaxPrimitiveTypesEtc/cmake-build-debug/CMakeFiles/recursion_ref.dir
 /mnt/c/Users/Amanda/CLionProjects/programacao/Py01_SyntaxPrimitiveTypesEtc/cmake-build-debug/CMakeFiles/structs_T03.dir
 /mnt/c/Users/Amanda/CLionProjects/programacao/Py01_SyntaxPrimitiveTypesEtc/cmake-build-debug/CMakeFiles/arrays.dir
+/mnt/c/Users/Amanda/CLionProjects/programacao/Py01_SyntaxPrimitiveTypesEtc/cmake-build-debug/CMakeFiles/time-add.dir
+/mnt/c/Users/Amanda/CLionProjects/programacao/Py01_SyntaxPrimitiveTypesEtc/cmake-build-debug/CMakeFiles/rotate-left.dir
+/mnt/c/Users/Amanda/CLionProjects/programacao/Py01_SyntaxPrimitiveTypesEtc/cmake-build-debug/CMakeFiles/common-letters.dir
+/mnt/c/Users/Amanda/CLionProjects/programacao/Py01_SyntaxPrimitiveTypesEtc/cmake-build-debug/CMakeFiles/largest.dir
+/mnt/c/Users/Amanda/CLionProjects/programacao/Py01_SyntaxPrimitiveTypesEtc/cmake-build-debug/CMakeFiles/expand.dir
 /mnt/c/Users/Amanda/CLionProjects/programacao/Py01_SyntaxPrimitiveTypesEtc/cmake-build-debug/CMakeFiles/edit_cache.dir
 /mnt/c/Users/Amanda/CLionProjects/programacao/Py01_SyntaxPrimitiveTypesEtc/cmake-build-debug/CMakeFiles/rebuild_cache.dir
