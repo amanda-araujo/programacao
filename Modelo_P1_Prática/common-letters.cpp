@@ -16,38 +16,67 @@
 #include <iostream>
 using namespace std;
 
+char lower(char c) {
+    if ( (c >= 'A' and c <= 'Z') or (c >= 'a' and c <= 'z') ) { //letter
+        if (c >= 'A' and c <= 'Z') return c + ('a' - 'A'); // lower case
+    }
+    return c;
+}
+
 int common_letters(const char a[], const char b[], char out[]) {
     // str-ing a, str-ing b, str-ing out
-    int n = 0; // number of letter char occur both a and b
+
     // low = uppercase; insensitive >> tolower()
+    //for (char& c : a) c = tolower(c); // OPA! CONST, n vai conseguir alterar
+    //for (char& d : b) d = tolower(d);
 
-    for (char& c : a) { // for each loop
-        // para cada letra de a, procurar em b (c = C)
-        for (char& d : b) {
-            if (tolower(c) == tolower(d)) break;
-        }
+    int n = 0; // number of letter char occur both a and b
 
-        // checar se já em out: n estando, add; n++
-        int flag = 0;
-        for (char& e : out) {
-            if (tolower(c) == e) { flag = 1; break; } // repetido; já em out
+    // ieração sobre todos elementos de a
+    for (int i = 0; a[i] != '\0'; i++) {
+        char elem = lower(a[i]);
+        // checar se é letra
+        if (elem >= 'a' and elem <= 'z') {
+            // procurar em b
+            for (int j = 0; b[j] != '\0'; j++) {
+                if (elem == lower(b[j])) { // encontrado
+                    // checar repetido
+                    bool flag = true;
+                    for (int k = 0; out[k] != '\0'; k++) {
+                        if (elem == lower(out[k])) {
+                            // repetido
+                            flag = false;
+                            break;
+                        }
+                    }
+                    if (flag) {
+                        out[n++] = elem; // add out
+                        cout << "escrevi em out " << elem << endl;
+                    }
+                }
+            }
         }
-        if (flag == 0) out[n++] = tolower(c);
     }
 
-    //
-    // for (char c : a) { // for each letter in a
-    //     for (char d : b) { // search for correspondence in b
-    //         if (c == d) { out[n++] = c; }
-    //     }
-    // }
+    // Organizar out em ordem alfabética Bubble Sort
+    for (int i = 0; i < n - 1 ; i++) {
+        for (int j = i + 1; j < n; j++) {
+            if (out[j] < out[i]) {
+                char temp = out[i];
+                out[i] = out[j];
+                out[j] = temp;
+            }
+        }
+    }
 
+    // At the end add '\0' to out >> terminate the string with the number of c added
+    out[n] = '\0';
     return n;
 }
 
 int main () {
     char out[26+1];
-    int n = common_letters("+LEIC", "c++", out);
+    int n = common_letters("+LEICazb", "c++azb", out);
     cout << n << " \"" << out << "\"\n";
     return 0;
 }
