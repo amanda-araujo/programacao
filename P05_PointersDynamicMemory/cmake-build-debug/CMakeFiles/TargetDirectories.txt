@@ -1,0 +1,8 @@
+/home/up202411286/CLionProjects/P05_PointersDynamicMemory/cmake-build-debug/CMakeFiles/P05_PointersDynamicMemory.dir
+/home/up202411286/CLionProjects/P05_PointersDynamicMemory/cmake-build-debug/CMakeFiles/expand_cdata.dir
+/home/up202411286/CLionProjects/P05_PointersDynamicMemory/cmake-build-debug/CMakeFiles/median.dir
+/home/up202411286/CLionProjects/P05_PointersDynamicMemory/cmake-build-debug/CMakeFiles/duplicate.dir
+/home/up202411286/CLionProjects/P05_PointersDynamicMemory/cmake-build-debug/CMakeFiles/alist_append.dir
+/home/up202411286/CLionProjects/P05_PointersDynamicMemory/cmake-build-debug/CMakeFiles/longest_string.dir
+/home/up202411286/CLionProjects/P05_PointersDynamicMemory/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/up202411286/CLionProjects/P05_PointersDynamicMemory/cmake-build-debug/CMakeFiles/rebuild_cache.dir
