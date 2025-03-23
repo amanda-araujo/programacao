@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/bc.dir/bc.cpp.o -o bc

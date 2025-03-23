@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/adigits.dir/adigits.cpp.o -o adigits

@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/equation.dir/equation.cpp.o -o equation

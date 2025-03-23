@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/bell.dir/bell.cpp.o -o bell

@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/P02_Functions.dir/main.cpp.o CMakeFiles/P02_Functions.dir/bc.cpp.o CMakeFiles/P02_Functions.dir/bell.cpp.o -o P02_Functions

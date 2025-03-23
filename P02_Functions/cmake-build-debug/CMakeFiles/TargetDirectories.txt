@@ -1,0 +1,8 @@
+/mnt/c/Users/Amanda/CLionProjects/P02_Functions/cmake-build-debug/CMakeFiles/P02_Functions.dir
+/mnt/c/Users/Amanda/CLionProjects/P02_Functions/cmake-build-debug/CMakeFiles/adigits.dir
+/mnt/c/Users/Amanda/CLionProjects/P02_Functions/cmake-build-debug/CMakeFiles/advance.dir
+/mnt/c/Users/Amanda/CLionProjects/P02_Functions/cmake-build-debug/CMakeFiles/equation.dir
+/mnt/c/Users/Amanda/CLionProjects/P02_Functions/cmake-build-debug/CMakeFiles/bc.dir
+/mnt/c/Users/Amanda/CLionProjects/P02_Functions/cmake-build-debug/CMakeFiles/bell.dir
+/mnt/c/Users/Amanda/CLionProjects/P02_Functions/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/c/Users/Amanda/CLionProjects/P02_Functions/cmake-build-debug/CMakeFiles/rebuild_cache.dir
