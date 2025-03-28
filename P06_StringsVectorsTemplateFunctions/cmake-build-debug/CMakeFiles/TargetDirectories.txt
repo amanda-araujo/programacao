@@ -1,0 +1,5 @@
+/home/up202411286/CLionProjects/P06_StringsVectorsTemplateFunctions/cmake-build-debug/CMakeFiles/P06_StringsVectorsTemplateFunctions.dir
+/home/up202411286/CLionProjects/P06_StringsVectorsTemplateFunctions/cmake-build-debug/CMakeFiles/pangram.dir
+/home/up202411286/CLionProjects/P06_StringsVectorsTemplateFunctions/cmake-build-debug/CMakeFiles/string-split.dir
+/home/up202411286/CLionProjects/P06_StringsVectorsTemplateFunctions/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/up202411286/CLionProjects/P06_StringsVectorsTemplateFunctions/cmake-build-debug/CMakeFiles/rebuild_cache.dir
