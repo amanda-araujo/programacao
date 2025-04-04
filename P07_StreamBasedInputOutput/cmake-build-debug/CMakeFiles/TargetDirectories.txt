@@ -1,0 +1,6 @@
+/home/up202411286/CLionProjects/P07_StreamBasedInputOutput/cmake-build-debug/CMakeFiles/P07_StreamBasedInputOutput.dir
+/home/up202411286/CLionProjects/P07_StreamBasedInputOutput/cmake-build-debug/CMakeFiles/count-words.dir
+/home/up202411286/CLionProjects/P07_StreamBasedInputOutput/cmake-build-debug/CMakeFiles/wc.dir
+/home/up202411286/CLionProjects/P07_StreamBasedInputOutput/cmake-build-debug/CMakeFiles/normalise.dir
+/home/up202411286/CLionProjects/P07_StreamBasedInputOutput/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/up202411286/CLionProjects/P07_StreamBasedInputOutput/cmake-build-debug/CMakeFiles/rebuild_cache.dir
