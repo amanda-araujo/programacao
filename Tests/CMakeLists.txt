@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.15)
-project(exercises)
+#project(exercises)
 
 # Define your common flags here
 set(COMMON_FLAGS "-g -Wall -pedantic -Wuninitialized -Werror -fsanitize=address -fsanitize=undefined")
@@ -14,12 +14,9 @@ set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} ${COMMON_FLAGS} ${EXTRA}")
 link_libraries(m)
 
 # If you want to choose the compiler, when calling cmake use the following flags (clang in this case):
-# cmake <path to CMakeLists.txt, usually ..> -D CMAKE_C_COMPILER=clang -D CMAKE_CXX_COMPILER=clang++ 
+# cmake <path to CMakeLists.txt, usually ..> -D CMAKE_C_COMPILER=clang -D CMAKE_CXX_COMPILER=clang++
 
 
 # Add one line for each executable using the command add_executable(<name> <sources>)
-add_executable(advance cmake-build-debug/advance.cpp
-        cmake-build-debug/adigits.cpp)
-add_executable(adigits cmake-build-debug/adigits.cpp)
-add_executable(equation cmake-build-debug/equation.cpp)
-add_executable(bc cmake-build-debug/bc.cpp)
+
+add_executable(test5_6 test5.cpp)

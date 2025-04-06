@@ -36,11 +36,14 @@ void append(alist* a, const alist* b) {
         //print(tmp);
     }
 
+    delete[] a->elements; // Corrects memory leak
+
     a->size = tmp->size;
     a->elements = tmp->elements;
     delete tmp;
     //destroy(tmp); // Process finished with exit code 1
 }
+
 
 int main () {
     const int nA = 2;

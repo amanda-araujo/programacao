@@ -23,5 +23,6 @@ add_executable(P05_PointersDynamicMemory main.cpp)
 add_executable(expand_cdata expand_cdata.cpp)
 add_executable(median median.cpp)
 add_executable(duplicate duplicate.cpp)
-add_executable(alist_append alist_append.cpp)
+add_executable(alist_append alist_append.cpp
+        ../Tests/test5.cpp)
 add_executable(longest_string longest_string.cpp)
