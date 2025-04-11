@@ -1,0 +1,6 @@
+/home/up202411286/CLionProjects/P8_Classes/cmake-build-debug/CMakeFiles/P8_Classes.dir
+/home/up202411286/CLionProjects/P8_Classes/cmake-build-debug/CMakeFiles/point2d.dir
+/home/up202411286/CLionProjects/P8_Classes/cmake-build-debug/CMakeFiles/date1.dir
+/home/up202411286/CLionProjects/P8_Classes/cmake-build-debug/CMakeFiles/date2.dir
+/home/up202411286/CLionProjects/P8_Classes/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/up202411286/CLionProjects/P8_Classes/cmake-build-debug/CMakeFiles/rebuild_cache.dir
