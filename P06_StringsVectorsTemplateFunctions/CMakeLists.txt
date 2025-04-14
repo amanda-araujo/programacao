@@ -19,6 +19,13 @@ link_libraries(m)
 
 # Add one line for each executable using the command add_executable(<name> <sources>)
 
-add_executable(P06_StringsVectorsTemplateFunctions main.cpp)
+add_executable(P06_StringsVectorsTemplateFunctions main.cpp
+        normalise-vector.cpp
+        longest-common-prefix.cpp
+        longest-common-prefix2.cpp
+        sparse-matrix-add.cpp)
 add_executable(pangram pangram.cpp)
 add_executable(string-split string-split.cpp)
+add_executable(longest-common-prefix longest-common-prefix.cpp)
+add_executable(longest-common-prefix2 longest-common-prefix2.cpp)
+add_executable(sparse-matrix-add sparse-matrix-add.cpp)
