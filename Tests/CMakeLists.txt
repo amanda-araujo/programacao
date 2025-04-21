@@ -19,4 +19,6 @@ link_libraries(m)
 
 # Add one line for each executable using the command add_executable(<name> <sources>)
 
-add_executable(test5_6 test5.cpp)
+add_executable(test5_6 test5.cpp
+        test7.cpp
+)

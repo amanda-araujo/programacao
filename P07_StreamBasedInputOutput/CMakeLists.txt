@@ -22,7 +22,10 @@ link_libraries(m)
 add_executable(P07_StreamBasedInputOutput main.cpp
         count-words.cpp
         wc.cpp
-        normalise.cpp)
+        normalise.cpp
+        maximum.cpp
+        median-values.cpp)
 add_executable(count-words count-words.cpp)
 add_executable(wc wc.cpp)
 add_executable(normalise normalise.cpp)
+add_executable(median-values median-values.cpp)
