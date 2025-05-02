@@ -1,0 +1,4 @@
+/home/up202411286/CLionProjects/P10_ClassInheritance/cmake-build-debug/CMakeFiles/P10_ClassInheritance.dir
+/home/up202411286/CLionProjects/P10_ClassInheritance/cmake-build-debug/CMakeFiles/tp10_ex1_main.dir
+/home/up202411286/CLionProjects/P10_ClassInheritance/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/up202411286/CLionProjects/P10_ClassInheritance/cmake-build-debug/CMakeFiles/rebuild_cache.dir
