@@ -21,7 +21,10 @@ link_libraries(m)
 add_executable(P8_Classes main.cpp
         point2d.cpp
         date1.cpp
-        date2.cpp)
+        date2.cpp
+        date3.cpp
+        fraction.cpp)
 add_executable(point2d point2d.cpp)
 add_executable(date1 date1.cpp)
 add_executable(date2 date2.cpp)
+add_executable(fraction fraction.cpp)

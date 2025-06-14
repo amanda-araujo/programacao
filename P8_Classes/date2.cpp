@@ -4,6 +4,7 @@
 #include <iostream>
 #include "Date2.h"
 #include <iomanip>
+#include <sstream>
 using namespace std;
 /*
 * class Date {
@@ -30,36 +31,31 @@ using namespace std;
 
 // Write the not yet implemented functions of the class Date
 // Constructors
+
+// Constructor: default
 Date::Date() {
     // default constructor must build the date 1/1/1;
     day = 1;
     month = 1;
     year = 1;
 }
+
+// Constructor: parameters year, month, day
 Date::Date(int year, int month, int day) {
+    // Attribution
+    Date::day = day; // this->day
+    Date::month = month;
+    Date::year = year;
+
     // checks validity
-    if (is_valid()) { // true: valid
-        Date::day = day;
-        Date::month = month;
-        Date::year = year;
-    }
-    else { // invalid date
+    if (!is_valid()) { // invalid date
         Date::day = 0;
         Date::month = 0;
         Date::year = 0;
     }
-    // // Creates the date
-    // Date::day = day;
-    // Date::month = month;
-    // Date::year = year;
-    //
-    // // Check its validity
-    // if (!is_valid()) { // invalid
-    //     Date::day = 0;
-    //     Date::month = 0;
-    //     Date::year = 0;
-    // }
 }
+
+// Constructor: parameter string
 Date::Date(const std::string &year_month_day) {
     // Reads a string with the info
     // HInt: istringstream object to decompose the string year_month_day
@@ -72,8 +68,27 @@ Date::Date(const std::string &year_month_day) {
     int y, m, d;
     char s1, s2;
 
-    if (inputss >> y >> s1 >> m >> s2 >> d && s1 == '/' && s2 == '/');
-    // checks if valid
+    if (inputss >> y >> s1 >> m >> s2 >> d && s1 == '/' && s2 == '/') {
+        // all OK reading the input
+
+        // Attribution
+        Date::day = d;
+        Date::month = m;
+        Date::year = y;
+
+        // checks validity
+        if (!is_valid()) { // invalid date
+            Date::day = 0;
+            Date::month = 0;
+            Date::year = 0;
+        }
+    } else {
+        // wrong input format: invalid date
+        Date::day = 0;
+        Date::month = 0;
+        Date::year = 0;
+    }
+
 
 }
 // Accessors (getter methods)
@@ -129,5 +144,7 @@ int main () {
     Date d1; d1.write(); std::cout << (d1.is_valid() ? "" : "-invalid") << endl;
     Date d2(2022, 4, 31); d2.write(); std::cout << (d2.is_valid() ? "" : "-invalid") << endl;
     Date d3("2ooo/2/28"); d3.write(); std::cout << (d3.is_valid() ? "" : "-invalid") << endl;
+    Date d4("1900/1/1"); d4.write(); std::cout << (d4.is_valid() ? "" : "-invalid") << endl;
+    Date d5("2022#12#31"); d5.write(); std::cout << (d5.is_valid() ? "" : "-invalid") << endl;
     return 0;
 }
