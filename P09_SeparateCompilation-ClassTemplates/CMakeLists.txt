@@ -20,6 +20,17 @@ link_libraries(m)
 # Add one line for each executable using the command add_executable(<name> <sources>)
 add_executable(P9_SeparateCompilation-ClassTemplate Color.cpp
         Color.h
-        p2_main.cpp)
-
-add_executable(p2_main p2_main.cpp)
+        p2_main.cpp
+        Date.cpp
+        Person.cpp
+        p3_main.cpp
+        Point.cpp
+        Point.h
+        Polygon.cpp
+        Polygon.h)
+#add_executable(p2_main p2_main.cpp)
+#add_executable(Date Date.cpp)
+#add_executable(Person Person.cpp)
+add_executable(p2_main Date.cpp Person.cpp p2_main.cpp)
+add_executable(p3_main Point.cpp Polygon.cpp p3_main.cpp)
+add_executable(Point Point.cpp Point.h)
