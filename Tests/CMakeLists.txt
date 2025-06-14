@@ -21,4 +21,5 @@ link_libraries(m)
 
 add_executable(test5_6 test5.cpp
         test7.cpp
+        test8.cpp
 )
