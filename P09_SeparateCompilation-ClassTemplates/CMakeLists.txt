@@ -27,10 +27,12 @@ add_executable(P9_SeparateCompilation-ClassTemplate Color.cpp
         Point.cpp
         Point.h
         Polygon.cpp
-        Polygon.h)
+        Polygon.h
+        pair.cpp)
 #add_executable(p2_main p2_main.cpp)
 #add_executable(Date Date.cpp)
 #add_executable(Person Person.cpp)
 add_executable(p2_main Date.cpp Person.cpp p2_main.cpp)
 add_executable(p3_main Point.cpp Polygon.cpp p3_main.cpp)
 add_executable(Point Point.cpp Point.h)
+add_executable(pair pair.cpp)

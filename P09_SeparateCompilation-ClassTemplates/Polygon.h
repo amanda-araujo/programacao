@@ -16,15 +16,15 @@ class Polygon {
 public:
     Polygon();
     Polygon(vector<Point> points);
-    bool get_vertex(int n, Point p);
-    Polygon add_vertex(int n, Point p);
-    void set_perimeter(Polygon p); // calculate
-    void set_total_number_of_vertices(Polygon p); // calculate
+    bool get_vertex(int n, Point &p);
+    void add_vertex(int n, const Point &p);
+    void set_perimeter(); // calculate
     void show() const;
+    double perimeter() const;
 
 private:
     vector<Point> polygon;
-    double perimeter;
+    double perimeter_;
     int total_number_of_vertices;
 };
 
