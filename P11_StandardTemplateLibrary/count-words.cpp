@@ -5,6 +5,7 @@
 #include <iostream>
 #include <vector>
 #include <sstream>
+#include <algorithm>
 using namespace std;
 
 // Function for printing the vector
@@ -16,20 +17,25 @@ void show_vector(const vector<pair<string, size_t>>& count) {
     std::cout << "]\n";
 }
 
+bool compare_str(pair<string, size_t> a, pair<string, size_t> b) {
+    return a.first < b.first;
+}
+
 void count_words(const string& str, vector<pair<string, size_t>>& count) {
     // Input: string, vector
     // Add to the vector pair (w , n); w: word in string, n: occurences
 
     // Case insensitive!
-    for (auto& c : str) c = tolower(c)
+    string copystr;
+    for (auto& c : str) { copystr.push_back(tolower(c)); }
 
-    istringstream iss(str); // Sequence of strings, allows operations
+    istringstream iss(copystr); // Sequence of strings, allows operations
     string w;
 
     while (iss >> w) { // pass a word to w
 
         bool in = false;
-        for (auto p : count) {
+        for (auto& p : count) {
             if (p.first == w) { // already in the vector
                 p.second++;
                 in = true;
@@ -43,6 +49,8 @@ void count_words(const string& str, vector<pair<string, size_t>>& count) {
         }
     }
 
+    // alphabetic order!
+    sort(count.begin(), count.end(), compare_str);
 }
 
 int main () {
@@ -50,6 +58,7 @@ int main () {
     vector<pair<string, size_t>> count;
     count_words(s, count);
     show_vector(count);
+    cout << "hey count-words";
     return 0;
 }
 

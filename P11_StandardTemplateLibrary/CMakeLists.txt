@@ -24,3 +24,6 @@ add_executable(P11_StandardTemplateLibrary
 add_executable(map-romans map-romans.cpp
         count-words.cpp)
 add_executable(count-words count-words.cpp)
+add_executable(Point Point.cpp)
+add_executable(MovingAverage MovingAverage.cpp)
+add_executable(iterators iterators.cpp)

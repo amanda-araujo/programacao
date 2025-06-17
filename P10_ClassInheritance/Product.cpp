@@ -3,11 +3,9 @@
 //
 #include "Product.h"
 
-Product::Product(int id, float price) : id_(id), price_(price) {
-};
+Product::Product(int id, float price) : id_(id), price_(price) {}
 
-Product::~Product() {
-};
+Product::~Product() {}
 
 int Product::get_id() const { return id_; }
 
